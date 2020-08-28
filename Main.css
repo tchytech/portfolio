@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.mynav {
+  overflow: hidden;
+  background-color: #47b8c9;
+  position: relative;
+}
+
+.mynav #myLinks {
+  display: none;
+}
+.mynav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+
+.mynav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all .3s ease;
+}
+
+.mynav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #1a5159;
+  color: white;
+}
+#mylinks a span{
+  color: #47b8c9;
+}
